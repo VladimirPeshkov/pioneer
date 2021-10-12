@@ -1,0 +1,30 @@
+.form-search {
+
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-column-gap: 16px; 
+    position: relative;
+
+    &:hover .form-search__search{
+        width: 249px;
+        border-bottom: 2px solid #222222;
+        position: static;
+        transition: width 0.5s;
+    }
+    
+    &__search {
+        border:none;
+        width: 0;
+        position:absolute;
+        left: -9990px;
+    }
+
+    &__btn {
+        border: none;
+        width: 24px;
+        height: 24px;
+        background: url(../../images/icons/icon-search.svg);
+        background-size: cover;
+    }
+
+}

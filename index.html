@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="root">
+        <header class="header">
+            <div class="container flex-space-between ">
+                <div class="header__logo">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.svg" alt="Логотип" class="logo__img" width="100%">
+                        <p class="header__logo-descr">РОССИЙСКИЙ ЗАВОД СИЛОВЫХ МАШИН</p>
+                    </a>
+                </div>
+                <div class="header__right column">
+                    <form action="#" class="header-form">
+                        <div class="form-search">
+                            <input type="button" class="form-search__btn"  value=" ">
+                            <input type="search" name="form-search__search" class="form-search__search" id="#" placeholder="Найти">
+                        </div>
+                        <div class="map">
+                            <input type="button" class="map__btn el-reset-bg-bd"value="География поставок">
+                            <div class="map__window flex-center">
+                                <img src="images/map.jpg" alt="Карта" class="map__img" width="186px">
+                                <p class="map__descr">Выберите  Ваш регион</p>
+                                <ul class="map__countrys-list ">
+                                    <li class="map__country-item map__country-item">
+                                        <button class="map__country-btn map__country-btn--open el-reset-bg-bd">Россия</button>
+                                    </li>
+                                    <li class="map__country-item">
+                                        <button class="map__country-btn el-reset-bg-bd">Беларусь</button>
+                                    </li>
+                                    <li class="map__country-item">
+                                        <button class="map__country-btn el-reset-bg-bd">Казахстан</button>
+                                    </li>
+                                    <li class="map__country-item">
+                                        <button class="map__country-btn el-reset-bg-bd">Узбекистан</button>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <input type="button" class="header-form__btn el-reset-bg-bd"value="Вход">
+                        <select class="header-form__select" name="header-form__select" id="№">
+                            <option value="RU" class="header__option">ru</option>
+                            <option value="EN" class="header__option">en</option>
+                        </select>
+                    </form>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">КОМПАНИЯ</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">ПРОДУКЦИЯ</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">УСЛУГИ И ПОДДЕРЖКА</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">ПРЕСС-ЦЕНТР</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                </div>  
+            </div> 
+        </header>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@import 'fonts';
+@import 'vars';
+@import 'set';
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/header-form';
+@import 'blocks/form-search';
+@import 'blocks/map';
+@import 'blocks/nav';
+
+* {
+    font-family: Fira_Sans_font;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+

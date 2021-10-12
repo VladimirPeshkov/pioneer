@@ -1,0 +1,20 @@
+.nav {
+    margin-top: 20px;
+    &__list {
+        display: flex;
+        gap: 54px;
+    }
+    &__link {
+        font-family: Fira_Sans_font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        transition: color .3s;
+    }
+
+    &__link:hover {
+        color: $brand-color;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lending-section {
+    margin-bottom: 80px;
+}
+
+.el-reset-bg-bd {
+    background: none;
+    border: none;
+}

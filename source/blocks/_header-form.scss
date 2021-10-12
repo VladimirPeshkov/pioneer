@@ -1,0 +1,19 @@
+.header-form {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-column-gap: 16px;
+    align-items: center;
+
+    &__select {
+      border: none;
+      text-transform: uppercase;
+      padding: 0 15px 0 18px;
+      border-left: 2px solid $accent_color;
+      appearance: none;
+      background: url(../../images/icons/icon-arrow.svg);
+      background-position: center right;
+      background-repeat: no-repeat;
+    }
+
+  }
+  
