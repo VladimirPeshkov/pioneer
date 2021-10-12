@@ -6,13 +6,16 @@
         height:auto;
         overflow: visible;
         opacity: 1;
-        z-index: 1;
+        z-index: 1000;
     }
 
-    &__btn {}
+    &__btn {
+        text-transform: uppercase;
+    }
 
 
-    &__window {;
+    &__window {
+        background: #fff;
         position: absolute;
         left: -9999px;
         width: 0;
@@ -38,9 +41,6 @@
         gap: 13px;
     }
 
-    &__country-item {
-        
-    }
     &__country-btn--open {
         color: $brand_color;
     }

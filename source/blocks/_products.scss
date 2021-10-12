@@ -1,0 +1,15 @@
+.products {
+    background: #e5e5e5;
+    padding: 96px 0 32px;
+    position: relative;
+
+    &::after {
+        content: url(../../images/header-bg.jpg);
+        max-width: 40%;
+        height: auto;
+        right: 0;
+        top: 32px;
+        position: absolute;
+    }
+
+}

@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.lending-section {
+    margin-bottom: 80px;
+}
+
 .section-title {
     font-style: normal;
     font-weight: normal;
@@ -20,10 +24,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.lending-section {
-    margin-bottom: 80px;
 }
 
 .el-reset-bg-bd {
