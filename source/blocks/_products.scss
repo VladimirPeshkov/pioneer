@@ -3,6 +3,10 @@
     padding: 96px 0 32px;
     position: relative;
 
+    &__conteiner {
+        position: relative;
+    }
+
     &::after {
         content: url(../../images/header-bg.jpg);
         max-width: 40%;

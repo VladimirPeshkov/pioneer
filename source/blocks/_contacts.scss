@@ -1,0 +1,130 @@
+.contacts{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+    &__checkbox{
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: -9999px;
+        overflow: hidden;
+
+        &:checked~.contacts__open{
+            right: 0;
+        }
+
+        &:checked~.contacts__roll{
+            right: -140px;
+        }
+    }
+    
+
+    &__roll {
+        text-align: center;
+        padding: 12px;
+        background: $brand_color;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 250;
+    }
+
+    &__descr{
+        color: $white;
+    }
+
+    &__open{
+        display: flex;
+        position: relative;
+        max-width: 569px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        right: -600px;
+        transition: .5s;
+    }
+
+    &__left {
+        background: $brand_color;
+        padding: 24px 21px 16px;
+        max-width: 315px;
+    }
+    &__title {
+        margin-bottom: 39px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: $gray-light;
+    }
+    &__country {
+        color: $gray-light;
+    }
+    &__tel {
+        color: $gray-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        margin: 9px 0;
+    }
+    &__tel-descr {
+        color: $gray-light;
+        margin-bottom: 32px;
+    }
+
+    &__link {
+        color: $gray;
+        text-align: center;
+
+        &:hover{
+            text-decoration:underline;
+        }
+
+        &:active{
+            color:$accent_color;
+        }
+    }
+
+
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 24px 33px 24px 27px;
+        background: $gray-light;
+        max-width: 254px
+    }
+    &__chat {
+        padding-left: 38px;
+        background: url(../../images/icons/icon-chat.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    &__chat-start {
+        color:$brand_color;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__mail {
+
+        margin-bottom: 15px;
+        padding-left: 38px;
+        background: url(../../images/icons/icon-mail.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    &__mail-start {
+        color:$brand_color;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+}
+
