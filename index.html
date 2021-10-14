@@ -64,8 +64,38 @@
             </div> 
         </header>
         <main class="main">
-            <section class="products lending-section">
+            <section class="products lending-section-margin ">
                 <div class="container products__conteiner">
+                    <div class="contacts__inner">
+                        <div class="contacts">
+                            <label for="contacts__checkbox" class="contacts__label">
+                                <input type="checkbox" class="contacts__checkbox" name="contacts__checkbox" id="contacts__checkbox">
+                                <div class="contacts__roll">
+                                    <img src="images/icons/icon-mes.svg" alt="изображение сообщений" class="contacts__icon" width="39px">
+                                    <p class="contacts__descr">Свяжитесь с нами</p>
+                                </div>
+                                <div class="contacts__open">
+                                    <div class="contacts__left flex-col-center">
+                                        <h3 class="contacts__title">Свяжитесь с нами по</h3>
+                                        <p class="contacts__country">Российская Федерация</p>
+                                        <a href="tel:+78001205250" class="contacts__tel">+7 800 120-52-50</a>
+                                        <p class="contacts__tel-descr">(звонок бесплатный)</p>
+                                        <a class="contacts__link" href="#">Или смотрите полный список региональных номеров</a>
+                                    </div>
+                                    <div class="contacts__right">
+                                        <div class="contacts__chat">
+                                            <button class="contacts__chat-start el-reset-bg-bd">Начать чат</button>
+                                            <p class="contacts__chat-descr">с представителем ПИОНЕР, чтобы получить помощь</p>
+                                        </div>
+                                        <div class="contacts__mail">
+                                            <a class="contacts__mail-start el-reset-bg-bd" <a href="mailto:#">Свяжитесь с нами</a>
+                                            <p class="contacts__mail-descr">Отправьте нам электронное сообщение с комментариями, вопросами или обратной связью</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>  
                     <div class="slider">
                         <ul class="slider__list">
                             <li class="slider__item">
@@ -93,36 +123,269 @@
                     </div>
                 </div>
             </section>
-            <div class="contacts__inner">
-                <div class="contacts">
-                    <label for="contacts__checkbox" class="contacts__label">
-                        <input type="checkbox" class="contacts__checkbox" name="contacts__checkbox" id="contacts__checkbox">
-                        <div class="contacts__roll">
-                            <img src="images/icons/icon-mes.svg" alt="изображение сообщений" class="contacts__icon" width="39px">
-                            <p class="contacts__descr">Свяжитесь с нами</p>
-                        </div>
-                        <div class="contacts__open">
-                            <div class="contacts__left flex-col-center">
-                                <h3 class="contacts__title">Свяжитесь с нами по</h3>
-                                <p class="contacts__country">Российская Федерация</p>
-                                <a href="tel:+78001205250" class="contacts__tel">+7 800 120-52-50</a>
-                                <p class="contacts__tel-descr">(звонок бесплатный)</p>
-                                <a class="contacts__link" href="#">Или смотрите полный список региональных номеров</a>
-                            </div>
-                            <div class="contacts__right">
-                                <div class="contacts__chat">
-                                    <button class="contacts__chat-start el-reset-bg-bd">Начать чат</button>
-                                    <p class="contacts__chat-descr">с представителем ПИОНЕР, чтобы получить помощь</p>
+            <section class="categories lending-section-margin ">
+                <div class="container flex-col-center">
+                    <div class="categories__title-inner">
+                        <h2 class="categories__title"><a href="#" class="categories__title-link section-title section-title--white">КАТЕГОРИИ</a></h2>
+                    </div>
+                    <ul class="categories__list">
+                        <li class="categories__item">
+                            <a href="#" class="categories__link flex-col-center">
+                                <div class="categories__icon categories__icon--warmly"></div>
+                                <div class="categories__name">Тепловая энергетика</div>
+                            </a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#" class="categories__link flex-col-center">
+                                <div class="categories__icon categories__icon--atom"></div>
+                                <div class="categories__name">Атомная энергетика</div>
+                            </a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#" class="categories__link flex-col-center">
+                                <div class="categories__icon categories__icon--water"></div>
+                                <div class="categories__name">Гидроэнергетика</div>
+                            </a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#" class="categories__link flex-col-center">
+                                <div class="categories__icon categories__icon--prom"></div>
+                                <div class="categories__name">Промышленность и транспорт</div>
+                            </a>
+                        </li>
+                        <li class="categories__item">
+                            <a href="#" class="categories__link flex-col-center">
+                                <div class="categories__icon  categories__icon--service"></div>
+                                <div class="categories__name">Сервис</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+            </section>
+            <section class="news lending-section-margin">
+                <div class="container flex-col-center">
+                    <h2 class="news__title">
+                        <a href="#" class="news__title-link section-title--dark">НОВОСТИ</a>
+                    </h2>
+                    <ul class="news__list flex-col-center">
+                        <li class="new__inner">
+                            <article class="new">
+                                <div class="new__left">
+                                    <img src="images/news/new1.jpg" alt="" class="new__img" width="255px">
                                 </div>
-                                <div class="contacts__mail">
-                                    <a class="contacts__mail-start el-reset-bg-bd" <a href="mailto:#">Свяжитесь с нами</a>
-                                    <p class="contacts__mail-descr">Отправьте нам электронное сообщение с комментариями, вопросами или обратной связью</p>
+                                <div class="new__right">
+                                    <time class="new__date">2020-07-20</time>
+                                    <header class="new__header">
+                                        <h3 class="new__title">
+                                            <a href="#" class="new__title-link"> ПИОНЕР, Российский завод силовых машин.</a>
+                                        </h3>
+                                        <ul class="new__categories-list">
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Пресс-релиз}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Изменения в проектах 2020}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Сроки и условия исполнения}</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <p class="new__text">
+                                        Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                                        Имени курсивных одна моей раз ты, осталось даже всемогущая текста, путь диких 
+                                        ему рот взобравшись пояс. Себя последний вскоре возвращайся!
+                                    </p>
                                 </div>
-                            </div>
-                        </div>
-                    </label>
+                            </article>
+                        </li>
+                        <li class="new__inner">
+                            <article class="new">
+                                <div class="new__left">
+                                    <img src="images/news/new2.jpg" alt="" class="new__img" width="255px">
+                                </div>
+                                <div class="new__right">
+                                    <time class="new__date">2020-07-20</time>
+                                    <header class="new__header">
+                                        <h3 class="new__title">
+                                            <a href="#" class="new__title-link"> ПИОНЕР, Российский завод силовых машин.</a>
+                                        </h3>
+                                        <ul class="new__categories-list">
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Пресс-релиз}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Изменения в проектах 2020}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Сроки и условия исполнения}</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <p class="new__text">
+                                        Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                                        Имени курсивных одна моей раз ты, осталось даже всемогущая текста, путь диких 
+                                        ему рот взобравшись пояс. Себя последний вскоре возвращайся!
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="new__inner">
+                            <article class="new">
+                                <div class="new__left">
+                                    <img src="images/news/new3.jpg" alt="" class="new__img" width="255px">
+                                </div>
+                                <div class="new__right">
+                                    <time class="new__date">2020-07-20</time>
+                                    <header class="new__header">
+                                        <h3 class="new__title">
+                                            <a href="#" class="new__title-link"> ПИОНЕР, Российский завод силовых машин.</a>
+                                        </h3>
+                                        <ul class="new__categories-list">
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Пресс-релиз}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Изменения в проектах 2020}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Сроки и условия исполнения}</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <p class="new__text">
+                                        Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                                        Имени курсивных одна моей раз ты, осталось даже всемогущая текста, путь диких 
+                                        ему рот взобравшись пояс. Себя последний вскоре возвращайся!
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="new__inner">
+                            <article class="new">
+                                <div class="new__left">
+                                    <img src="images/news/new4.jpg" alt="" class="new__img" width="255px">
+                                </div>
+                                <div class="new__right">
+                                    <time class="new__date">2020-07-20</time>
+                                    <header class="new__header">
+                                        <h3 class="new__title">
+                                            <a href="#" class="new__title-link"> ПИОНЕР, Российский завод силовых машин.</a>
+                                        </h3>
+                                        <ul class="new__categories-list">
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Пресс-релиз}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Изменения в проектах 2020}</a>
+                                            </li>
+                                            <li class="li new__categories-item">
+                                                <a href="#" class="new__categories-link">{Сроки и условия исполнения}</a>
+                                            </li>
+                                        </ul>
+                                    </header>
+                                    <p class="new__text">
+                                        Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                                        Имени курсивных одна моей раз ты, осталось даже всемогущая текста, путь диких 
+                                        ему рот взобравшись пояс. Себя последний вскоре возвращайся!
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
                 </div>
-            </div>  
+            </section>
+            <section class="projects lending-section-bg">
+                <div class="container lending-section-bg__container projects__container">
+                    <div class="projects__content lending-section-bg__content">
+                        <h3 class="projects__title lending-section-bg__title section-title--white">НАШИ ПРОЕКТЫ</h3>
+                        <p class="projects__ descr lending-section-bg__descr">Работаем с крупными и компаниями по всему миру</p>
+                        <a href="#" class="btn btn-white">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="vacansies lending-section-bg">
+                <div class="vacansies__container container lending-section-bg__container">
+                    <div class="vacansies__content lending-section-bg__content">
+                        <h3 class="vacansies__title lending-section-bg__title section-title--white">ВАКАНСИИ</h3>
+                        <p class="vacansies__descr lending-section-bg__descr">Приглашаем на рабочие специальности</p>
+                        <a href="#" class="btn btn-white">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="about lending-section-margin">
+                <div class="container about__container flex-col-center">
+                    <h2 class="about__title"><a href="#" class="about__title-link section-title--dark">О КОМПАНИИ</a></h2>
+                    <p class="about__descr">
+                        “ПИОНЕР” – одна из ведущих машиностроительных компаний, имеющая межрегиональный
+                        и международный опыт работы, а также   компетенции в области проектирования, 
+                        изготовления и комплектной поставки оборудования для тепловых, атомных, 
+                        гидравлических и газотурбинных электростанций.
+                    </p>
+                    <a href="#" class="about__link btn btn-light">Наши референции</a>
+                    <ul class="about__list flex-space-between">
+                        <li class="about__item">
+                            <p class="about__item-text">
+                                <span class="about__span">3</span> место <br> в РФ по объему оборудования
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__item-text">
+                                <span class="about__span">20</span> лет <br> на международном рынке
+                            </p>   
+                        </li>
+                        <li class="about__item">
+                            <p class="about__item-text">
+                                Более <span class="about__span">10</span> проектов по  разработке новых приборов ежегодно
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__item-text">
+                                Примерно <span class="about__span">50</span> ГВт - совокупная мощность производства
+                            </p>
+                        </li>
+                    </ul>
+                </div>   
+            </section>
+            <section class="subscription lending-section-bg">
+                <div class="subscription__container container lending-section-bg__container">
+                    <div class="subscription__content lending-section-bg__content">
+                        <h3 class="subscription__title lending-section-bg__title section-title--white">НАШИ ПРОЕКТЫ</h3>
+                        <p class="subscription__descr lending-section-bg__descr">Работаем с крупными и компаниями по всему миру</p>
+                        <a href="#" class="btn btn-white">Подробнее</a>
+                        <div class="subscription__contacts-inner contacts__inner">
+                            <div class="contacts">
+                                <label for="subscription__contacts-checkbox" class="contacts__label">
+                                    <input type="checkbox" class="contacts__checkbox" name="contacts__checkbox" id="subscription__contacts-checkbox">
+                                    <div class="contacts__roll">
+                                        <img src="images/icons/icon-mes.svg" alt="изображение сообщений" class="contacts__icon" width="39px">
+                                        <p class="contacts__descr">Свяжитесь с нами</p>
+                                    </div>
+                                    <div class="contacts__open">
+                                        <div class="contacts__left flex-col-center">
+                                            <h3 class="contacts__title">Свяжитесь с нами по</h3>
+                                            <p class="contacts__country">Российская Федерация</p>
+                                            <a href="tel:+78001205250" class="contacts__tel">+7 800 120-52-50</a>
+                                            <p class="contacts__tel-descr">(звонок бесплатный)</p>
+                                            <a class="contacts__link" href="#">Или смотрите полный список региональных номеров</a>
+                                        </div>
+                                        <div class="contacts__right">
+                                            <div class="contacts__chat">
+                                                <button class="contacts__chat-start el-reset-bg-bd">Начать чат</button>
+                                                <p class="contacts__chat-descr">с представителем ПИОНЕР, чтобы получить помощь</p>
+                                            </div>
+                                            <div class="contacts__mail">
+                                                <a class="contacts__mail-start el-reset-bg-bd" <a href="mailto:#">Свяжитесь с нами</a>
+                                                <p class="contacts__mail-descr">Отправьте нам электронное сообщение с комментариями, вопросами или обратной связью</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>

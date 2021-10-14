@@ -1,0 +1,63 @@
+.categories {
+
+    background: $black;
+
+    &__title-inner {
+        margin: 48px auto 55px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 49px;
+    }
+    &__item {
+        width: 118px;
+    }
+
+    &__link {
+        color:$gray-light;
+
+        &:hover > .categories__name {
+            color: $gray-dark;
+        }
+
+        &:hover > .categories__icon {
+            transform: scale(1.1, 1.1);
+        }
+    }
+
+    &__icon {
+        height: 72px;
+        width: 76px;
+        margin-bottom: 23px;
+        background: url(../../images/icons/icon-categories.svg);
+        background-repeat: no-repeat;
+        transition: transform .3s;
+
+        &--warmly{
+            background-position: -36px center;
+        }
+        &--atom{
+            background-position: -124px center;
+        }
+        &--water{
+            background-position: -221px center;
+        }
+        &--prom{
+            background-position: -313px center;
+        }
+        &--service{
+            background-position: -404px center;
+        }
+    }
+
+    &__name {
+        color:inherit;
+        text-align: center;
+        transition: color .3s;
+
+    }
+  }
+  

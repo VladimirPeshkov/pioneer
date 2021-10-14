@@ -1,0 +1,30 @@
+.lending-section-bg {
+
+    margin-bottom: 80px;
+
+    &__container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+        min-height: 496px;
+        padding: 128px 95px;
+        position: relative;
+    }
+
+    &__title {
+        pointer-events: none;
+    }
+
+    &__content{
+        max-width: 350px;
+    }
+
+    &__descr{
+        color: $white;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+        margin: 25px 0 55px;
+    }
+}

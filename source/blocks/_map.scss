@@ -15,6 +15,7 @@
 
 
     &__window {
+        text-align: center;
         background: #fff;
         position: absolute;
         left: -9999px;
@@ -38,6 +39,7 @@
     }
     &__countrys-list {
         display: flex;
+        justify-content: center;
         gap: 13px;
     }
 

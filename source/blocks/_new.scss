@@ -1,0 +1,41 @@
+.new {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 920px;
+
+    &__date {
+        display: block;
+        margin-bottom: 16px;
+    }
+    &__title {
+        display: inline;
+        float: left;
+        font-weight: bold;
+        margin-right: 5px;
+
+        &:hover>.new__title-link{
+            color: $gray;
+        }
+    }
+    &__title-link {
+        transition: color .3s;
+    }
+    &__categories-item {
+        display: inline;
+        margin-left:5px;
+    }
+    &__categories-link {
+        font-size: 12px;
+        line-height: 14px;
+        color: $gray-dark;
+        transition: .3s;
+
+        &:hover{
+            color: $gray;
+        }
+    }
+
+  }
+  
+  

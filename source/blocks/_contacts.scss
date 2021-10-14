@@ -2,6 +2,14 @@
     display: inline-block;
     position: relative;
     overflow: hidden;
+    z-index: 250;
+
+    &__inner {
+        position: absolute;
+        top: 64px;
+        right: 15px;
+
+    }
 
     &__checkbox{
         position: absolute;

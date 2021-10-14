@@ -1,6 +1,7 @@
 @import 'fonts';
 @import 'vars';
 @import 'set';
+@import 'blocks/lending-section-bg';
 @import 'blocks/header';
 @import 'blocks/logo';
 @import 'blocks/header-form';
@@ -11,6 +12,11 @@
 @import 'blocks/button';
 @import 'blocks/products';
 @import 'blocks/contacts';
+@import 'blocks/title-section';
+@import 'blocks/categories';
+@import 'blocks/new';
+@import 'blocks/news';
+@import 'blocks/about';
 
 * {
     font-family: Fira_Sans_font;
@@ -30,17 +36,56 @@ main {
     flex-grow: 1;
 }
 
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    padding: 0 16px;
-    flex-wrap: wrap;
+.lending-section-margin {
+    margin-bottom: 80px;
 }
 
-.contacts__inner {
-    // position: relative;
+.projects {
+    &__container{
+        background-image: url("../../images/projects-bg.jpg");
+    }
 }
+
+.vacansies{
+
+    &__container{
+        justify-content: flex-end;
+        background-image: url("../images/vac-bg.jpg");
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        max-width: 232px;
+    }
+
+    &__title{
+        align-self: flex-start;
+    }
+}
+
+    .subscription{
+
+        &__container {
+            background-image: url("../images/benefit-bg.jpg");
+        }
+
+        &__contacts-inner{
+            top: 127px;
+            right: 0;
+        }
+    }
+    
+    
+
+
+
+
+
+
+
+
 
 
 

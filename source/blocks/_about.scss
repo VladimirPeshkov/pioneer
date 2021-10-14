@@ -1,0 +1,50 @@
+.about {
+
+    &__container{
+        margin-bottom: 15px;
+        background: url(../../images/info-bg.jpg);
+        background-repeat: no-repeat;
+        background-position-y:-25px;
+        background-position-x: right;
+    }
+    &__title {
+        margin: 10px auto 32px;
+    }
+    &__descr {
+        max-width: 718px;
+        padding: 0 10px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__link{
+        margin-bottom: 79px;
+    }
+    &__list {
+        gap: 48px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        flex: 1 0 199px;
+        background: url(../../images/info-ln.svg);
+        background-position: top right;
+        background-repeat: no-repeat;
+        
+        &:last-child{
+            background: none;
+        }
+    }
+    &__item-text{
+        max-width: 199px;
+        font-size: 18px;
+        line-height: 22px
+
+    }
+
+    &__span {
+        font-style: normal;
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: normal;
+    }
+  }
+  

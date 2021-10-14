@@ -1,0 +1,27 @@
+.section-title {
+
+    &--dark {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $gray-dark;
+        } 
+    }
+
+    &--white {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        transition: color 0.3s;
+        color: $white;
+
+        &:hover {
+            color: $gray-dark;
+        } 
+    }
+}
