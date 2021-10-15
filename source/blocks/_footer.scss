@@ -1,0 +1,120 @@
+.footer {
+    background: $black;
+    padding: 65px 0 41px;
+
+    &__conteiner {
+        flex-direction: column;
+    }
+    &__top {
+        border-bottom: 1px solid $gray-dark;
+        flex-wrap: wrap;
+    }
+    &__menu {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 34px;
+        flex-wrap: wrap;
+    }
+    &__menu-item {
+        
+        flex: 1 0 auto;
+    }
+    &__nav-items {
+        margin-bottom: 24px;
+    }
+    &__nav-title {
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+        padding-bottom: 6px;
+        margin-bottom: 27px;
+
+        &:hover .footer__link--title{
+            border-bottom: 1px solid $gray-light; 
+        }
+    }
+    &__link--title{
+        border-bottom: 1px solid transparent;
+        transition: .3s;
+    }
+
+    &__link {
+        color: $gray;
+        border-bottom: 1px solid transparent;
+        transition: .3s;
+
+        &:hover {
+            border-bottom: 1px solid $gray; 
+        }
+    }
+
+    &__nav-title > .footer__link {
+        color: $gray-light;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 33px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__item {
+        flex: 1 0 252px;
+        margin: -10px 0 -10px;
+    }
+    &__logo {
+        width: 194px;
+    }
+    &__tel {
+        color: $gray;
+    }
+    &__tel-link{
+        color: $gray-light;
+        border-bottom: 1px solid transparent;
+        transition: .3s;
+
+        &:hover{
+            border-bottom: 1px solid $gray-light;
+        }
+    }
+
+    &__info {
+        color:$gray;;
+    }
+  }
+
+  .social {
+      display: flex;
+      gap: 4px;
+   
+    &__link {
+        display: block;
+        height: 52px;
+        background: url(../../images/icons/icon-social.png);
+        background-repeat: no-repeat;
+        background-position-y: -97px;
+        transform: scale(0.8, 0.8);
+        overflow: hidden;
+    }
+    &__link--tw {
+        width: 60px;
+        background-position-x: -58px;
+    }
+    &__link--fb {
+        width: 28px;
+        background-position-x: -142px;
+    }
+    &__link--inst {
+        width: 55px;
+        background-position-x: -192px;
+    }
+    &__link--youtube {
+        width: 55px;
+        background-position-y: -100px;
+        background-position-x: -267px;
+    }
+  }
+  
+  

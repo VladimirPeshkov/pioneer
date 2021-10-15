@@ -17,13 +17,7 @@
 @import 'blocks/new';
 @import 'blocks/news';
 @import 'blocks/about';
-
-* {
-    font-family: Fira_Sans_font;
-    font-size: 14px;
-    line-height: 17px;
-    color: $black;
-}
+@import 'blocks/footer';
 
 .root {
     display: flex;
@@ -35,6 +29,7 @@
 main {
     flex-grow: 1;
 }
+
 
 .lending-section-margin {
     margin-bottom: 80px;
@@ -65,17 +60,17 @@ main {
     }
 }
 
-    .subscription{
+.subscription{
 
-        &__container {
-            background-image: url("../images/benefit-bg.jpg");
-        }
-
-        &__contacts-inner{
-            top: 127px;
-            right: 0;
-        }
+    &__container {
+        background-image: url("../images/benefit-bg.jpg");
     }
+
+    &__contacts-inner{
+        top: 127px;
+        right: 0;
+    }
+}
     
     
 

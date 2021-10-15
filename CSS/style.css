@@ -26,17 +26,6 @@
   font-weight: 700;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 16px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,6 +77,20 @@
   border: none;
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Fira_Sans_font;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222;
+}
+
 .lending-section-bg {
   margin-bottom: 80px;
 }
@@ -95,7 +98,6 @@
 .lending-section-bg__container {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 15px 15px;
   min-height: 496px;
   padding: 128px 95px;
   position: relative;
@@ -285,6 +287,7 @@
 }
 
 .nav__link {
+  color: #222;
   font-family: Fira_Sans_font;
   font-style: normal;
   font-weight: 600;
@@ -476,7 +479,7 @@
 .contacts__inner {
   position: absolute;
   top: 64px;
-  right: 15px;
+  right: 0;
 }
 
 .contacts__checkbox {
@@ -617,6 +620,7 @@
 }
 
 .section-title--dark {
+  color: #222;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -748,6 +752,7 @@
 }
 
 .new__title-link {
+  color: #222;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -832,11 +837,163 @@
   font-weight: normal;
 }
 
-* {
-  font-family: Fira_Sans_font;
-  font-size: 14px;
-  line-height: 17px;
-  color: #222;
+.footer {
+  background: #222;
+  padding: 65px 0 41px;
+}
+
+.footer__conteiner {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__top {
+  border-bottom: 1px solid #666666;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__menu {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 34px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__menu-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.footer__nav-items {
+  margin-bottom: 24px;
+}
+
+.footer__nav-title {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  padding-bottom: 6px;
+  margin-bottom: 27px;
+}
+
+.footer__nav-title:hover .footer__link--title {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.footer__link--title {
+  border-bottom: 1px solid transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer__link {
+  color: #C4C4C4;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer__link:hover {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.footer__nav-title > .footer__link {
+  color: #E6E6E6;
+}
+
+.footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 33px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 252px;
+          flex: 1 0 252px;
+  margin: -10px 0 -10px;
+}
+
+.footer__logo {
+  width: 194px;
+}
+
+.footer__tel {
+  color: #C4C4C4;
+}
+
+.footer__tel-link {
+  color: #E6E6E6;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer__tel-link:hover {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.footer__info {
+  color: #C4C4C4;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.social__link {
+  display: block;
+  height: 52px;
+  background: url(../../images/icons/icon-social.png);
+  background-repeat: no-repeat;
+  background-position-y: -97px;
+  -webkit-transform: scale(0.8, 0.8);
+          transform: scale(0.8, 0.8);
+  overflow: hidden;
+}
+
+.social__link--tw {
+  width: 60px;
+  background-position-x: -58px;
+}
+
+.social__link--fb {
+  width: 28px;
+  background-position-x: -142px;
+}
+
+.social__link--inst {
+  width: 55px;
+  background-position-x: -192px;
+}
+
+.social__link--youtube {
+  width: 55px;
+  background-position-y: -100px;
+  background-position-x: -267px;
 }
 
 .root {
