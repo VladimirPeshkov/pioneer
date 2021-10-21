@@ -177,7 +177,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url(../../images/icons/icon-arrow.svg);
+  background: url(../images/icons/icon-arrow.svg);
   background-position: center right;
   background-repeat: no-repeat;
 }
@@ -214,7 +214,7 @@
   border: none;
   width: 24px;
   height: 24px;
-  background: url(../../images/icons/icon-search.svg);
+  background: url(../images/icons/icon-search.svg);
   background-size: cover;
 }
 
@@ -461,7 +461,7 @@
 }
 
 .products::after {
-  content: url(../../images/header-bg.jpg);
+  content: url(../images/header-bg.jpg);
   max-width: 40%;
   height: auto;
   right: 0;
@@ -590,7 +590,7 @@
 
 .contacts__chat {
   padding-left: 38px;
-  background: url(../../images/icons/icon-chat.png);
+  background: url(../images/icons/icon-chat.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -606,7 +606,7 @@
 .contacts__mail {
   margin-bottom: 15px;
   padding-left: 38px;
-  background: url(../../images/icons/icon-mail.png);
+  background: url(../images/icons/icon-mail.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -689,7 +689,7 @@
   height: 72px;
   width: 76px;
   margin-bottom: 23px;
-  background: url(../../images/icons/icon-categories.svg);
+  background: url(../images/icons/icon-categories.svg);
   background-repeat: no-repeat;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
@@ -784,7 +784,7 @@
 
 .about__container {
   margin-bottom: 15px;
-  background: url(../../images/info-bg.jpg);
+  background: url(../images/info-bg.jpg);
   background-repeat: no-repeat;
   background-position-y: -25px;
   background-position-x: right;
@@ -815,7 +815,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1 0 199px;
           flex: 1 0 199px;
-  background: url(../../images/info-ln.svg);
+  background: url(../images/info-ln.svg);
   background-position: top right;
   background-repeat: no-repeat;
 }
@@ -967,7 +967,7 @@
 .social__link {
   display: block;
   height: 52px;
-  background: url(../../images/icons/icon-social.png);
+  background: url(../images/icons/icon-social.png);
   background-repeat: no-repeat;
   background-position-y: -97px;
   -webkit-transform: scale(0.8, 0.8);
@@ -1021,7 +1021,7 @@ main {
 }
 
 .projects__container {
-  background-image: url("../../images/projects-bg.jpg");
+  background-image: url("../images/projects-bg.jpg");
 }
 
 .vacansies__container {
